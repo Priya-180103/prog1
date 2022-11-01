@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int a[10],i,n,odd=0,even=0;
+    printf("enter n");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+       scanf("%d",&a[i]);
+       if(a[i]%2==0)
+             even++;
+        else
+             odd++;
+    }
+    printf("Even=%d \n Odd=%d",even,odd);
+}
